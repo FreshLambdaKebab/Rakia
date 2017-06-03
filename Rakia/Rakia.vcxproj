@@ -19,13 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\App.cpp" />
-    <ClCompile Include="src\Framework.cpp" />
+    <ClCompile Include="src\core\Application.cpp" />
+    <ClCompile Include="src\core\Framework.cpp" />
+    <ClCompile Include="src\states\BaseState.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\states\PlayState.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\App.h" />
-    <ClInclude Include="src\Framework.h" />
+    <ClInclude Include="src\core\Application.h" />
+    <ClInclude Include="src\core\Framework.h" />
+    <ClInclude Include="src\states\BaseState.h" />
+    <ClInclude Include="src\states\PlayState.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

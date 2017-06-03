@@ -1,11 +1,16 @@
-#include <iostream>
-#include <SFML/Graphics.hpp>
+/*#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>*/
+#include "core/Application.h"
 
-#include "App.h"
 
 int main()
 {
-	App app;
+	Application app;
+	app.init();
 	app.run();
 
+	//char c;
+	//std::cin >> c;
 }

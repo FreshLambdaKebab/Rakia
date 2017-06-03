@@ -2,11 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\App.cpp" />
-    <ClCompile Include="src\Framework.cpp" />
+    <ClCompile Include="src\states\BaseState.cpp" />
+    <ClCompile Include="src\states\PlayState.cpp" />
+    <ClCompile Include="src\core\Framework.cpp" />
+    <ClCompile Include="src\core\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\App.h" />
-    <ClInclude Include="src\Framework.h" />
+    <ClInclude Include="src\states\BaseState.h" />
+    <ClInclude Include="src\states\PlayState.h" />
+    <ClInclude Include="src\core\Framework.h" />
+    <ClInclude Include="src\core\Application.h" />
   </ItemGroup>
 </Project>
